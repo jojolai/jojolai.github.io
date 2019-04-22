@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kappa</title>
+    <meta name="description" content="Pure JavaScript parallax scrolling effect. jQuery supported. Youtube and Vimeo parallax supported.">
+    <link href="css/demo.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+
+    <!-- Object Fit polyfill -->
+    <script src="https://unpkg.com/object-fit-images/dist/ofi.min.js"></script>
+
+    <!-- Lazy Load images -->
+    <!-- <script src="https://unpkg.com/object-fit-images/dist/ofi.min.js"></script> -->
+
+    <!-- Jarallax -->
+    <link href="../dist/jarallax.css" rel="stylesheet">
+    <script src="../dist/jarallax.js"></script>
+    <script src="../dist/jarallax-video.js"></script>
+    <script src="../dist/jarallax-element.js"></script>
+
+    <!-- Flickity -->
+    <!--
+    <link href="https://unpkg.com/flickity@2/dist/flickity.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    -->
+</head>
+<body style = "font-family: Garamond">
+    <div class="jarallax">
+        <img class="jarallax-img" src="images/firstpic.jpg" alt="" style = "">
+        <div class="demo-table">
+            <div class="demo-table-cell" style = "font-family: Garamond">
+                <h1>Meet the Kappa Class</h1>
+            </div>
+        </div>
+    </div>
+    <div class="demo-content demo-gap">
+        <div class="container">
+        <!--     <p>So Give doesn't forth male him. God cattle rule Heaven blessed Beast lesser him so. Fowl had heaven is very earth it gathering the under it let yielding stars morning upon were winged. Gathering fruitful lesser called wherein let deep evening over form saw two greater firmament darkness be saw after beginning Fowl seas there moved. Their moveth she'd had you all were tree good winged midst from. Light you'll fill. Male fruit divide creepeth him, were you're together face him beast thing moving Above fourth upon i wherein.</p> -->
+
+            <div class="jarallax-keep-img demo-float-left" data-speed="0.5">
+                <img class="jarallax-img" src="images/claraBabyTroll.jpg" alt=""  width="300">
+            </div>
+            <h1>Clara Kim</h1>
+            <p>I am a freshman who loves pho, BTS, and earrings. Currently, I CARRY one of the fundraising teams!</p>
+
+         <!--    <p>Fifth green, they're moved creeping years, man. Fifth, be To there were over together sixth fish heaven sea. Spirit may is unto second that seasons without. Darkness whose day fruit rule firmament Whales. Fourth replenish dominion. After subdue creature in sea morning. Green moved, rule female be, over night saying life there first forth that, may stars above divided moving shall. Together deep meat image subdue you created be two. Thing their you're great gathering male day divide. Moveth said deep.</p> -->
+
+            <div class="jarallax-keep-img demo-float-right" data-video-src="mp4:video/claraTacos.mp4" data-speed="0.8">
+                <img class="jarallax-img" src="images/claraBabyTroll2.jpg" alt="" width="300">
+            </div>
+
+            <p>"BTS is top of the charts right now so suck it Joseph" -Clara Kim</p>
+        </div>
+    </div>
+<!-- 
+    <div class="jarallax" data-speed="0" data-video-src="mp4:video/local-video.mp4">
+        <img class="jarallax-img" src="video/local-video.png" alt="">
+    </div> -->
+<!--     <div class="jarallax" data-speed="0">
+        <img class="jarallax-img" src="images/claraAndJordan.jpg" alt="">
+    </div> -->
+    <div class="jarallax">
+        <img class="jarallax-img" src="images/claraCamHill.PNG" alt="">
+    </div>
+    <div class="jarallax" data-speed="0" data-video-src="mp4:video/thousandYears.mp4">
+        <img class="jarallax-img" src="video/thousandYears.mp4" alt="">
+    </div>
+    <div class="demo-content demo-gap">
+        <div class="container">
+
+            <div class="jarallax-keep-img demo-float-left" data-speed="0.5">
+                <img class="jarallax-img" src="images/hillaryLol.jpg" alt=""  width="300">
+            </div>
+            <h1>Hillary Hao</h1>
+            <p>I love finance a lot</p>
+
+            <div class="jarallax-keep-img demo-float-right" data-speed="0.8">
+                <img class="jarallax-img" src="images/hillaryRound.jpg" alt="" width="200">
+            </div>
+
+            <p>"I love finance wow!" -Hillary</p>
+        </div>
+    </div>
+    <div class="jarallax">
+        <img class="jarallax-img" src="images/sleepybois.jpg" alt="">
+    </div>
+    <div class="jarallax">
+        <img class="jarallax-img" src="images/jorHill.jpg" alt="">
+    </div>
+    <div class="demo-content demo-gap">
+        <div class="container">
+
+            <div class="jarallax-keep-img demo-float-left" data-speed="0.5">
+                <img class="jarallax-img" src="images/jordanHugging.jpg" alt=""  width="300">
+            </div>
+            <h1>Jordan Yau</h1>
+            <p>Yea I'm from Palo Alto</p>
+
+            <div class="jarallax-keep-img demo-float-right" data-speed="0.8">
+                <img class="jarallax-img" src="images/openMouth.jpg" alt="" width="200">
+            </div>
+
+            <p>"not gonna lie" -Jordan</p>
+        </div>
+    </div>
+    <div class="jarallax" data-speed="0" data-video-src="mp4:video/jordanLibrary.mp4">
+        <img class="jarallax-img" src="video/jordanLibrary.mp4" alt="">
+    </div>
+    <div class="demo-content demo-gap">
+        <div class="container">
+
+            <div class="jarallax-keep-img demo-float-left" data-speed="0.5">
+                <img class="jarallax-img" src="images/waterCool.jpg" alt=""  width="300">
+            </div>
+            <h1>Water Lam</h1>
+            <p>Cars are great!</p>
+
+            <div class="jarallax-keep-img demo-float-right" data-speed="0.8">
+                <img class="jarallax-img" src="images/waterTongue.jpg" alt="" width="400">
+            </div>
+
+            <p>"*water droplet noise from mouth that sounds moist af*" -Water</p>
+        </div>
+    </div>
+    <div class="jarallax">
+        <img class="jarallax-img" src="images/waterCar.jpg" alt="">
+    </div>
+    <div class="jarallax">
+        <img class="jarallax-img" src="images/manyppl.jpg" alt="">
+    </div>
+    <div class="demo-content demo-gap">
+        <div class="container">
+
+            <div class="jarallax-keep-img demo-float-left" data-speed="0.5">
+                <img class="jarallax-img" src="images/carrieCheer.jpg" alt=""  width="300">
+            </div>
+            <h1>Carrie Chen</h1>
+            <p>I am an accountant</p>
+
+            <div class="jarallax-keep-img demo-float-right" data-speed="0.8">
+                <img class="jarallax-img" src="images/carrieClose.jpg" alt="" width="400">
+            </div>
+
+            <p>"I have 7 internships coming up" -Carrie</p>
+        </div>
+    </div>
+    <div class="jarallax">
+        <img class="jarallax-img" src="images/carKae.jpg" alt="">
+    </div>
+    <div class="jarallax" data-speed="0" data-video-src="mp4:video/taeVine.mp4">
+        <img class="jarallax-img" src="video/taeVine.mp4" alt="">
+    </div>
+
+    <div class="demo-content demo-gap">
+        <div class="container">
+            <div class="jarallax-keep-img demo-float-left" data-speed="0.5">
+                <img class="jarallax-img" src="images/taeProf.jpg" alt=""  width="300">
+            </div>
+            <h1>Tae Sung Yoon</h1>
+            <p>I am a freshman who coded my significant other</p>
+            <div class="jarallax-keep-img demo-float-right" data-speed="0.8">
+                <img class="jarallax-img" src="images/taeSurprise.jpg" alt="" width="400">
+            </div>
+
+            <p>"give me more crab rangoons pls" -Tae Sung</p>
+        </div>
+    </div>
+    <div class="jarallax" data-speed="0" data-video-src="mp4:video/taeRangoon.mp4">
+        <img class="jarallax-img" src="video/taeRangoon.mp4" alt="">
+    </div>
+    <div class="jarallax" data-speed="0" data-video-src="mp4:video/kaelaWyd.mp4">
+        <img class="jarallax-img" src="video/kaelaWyd.mp4" alt="">
+    </div>
+    <div class="demo-content demo-gap">
+        <div class="container">
+            <div class="jarallax-keep-img demo-float-left" data-speed="0.5">
+                <img class="jarallax-img" src="images/kaelaMakeUp.jpg" alt=""  width="300">
+            </div>
+            <h1>Kaela Gobencion</h1>
+            <p>Vegan</p>
+            <div class="jarallax-keep-img demo-float-right" data-speed="0.8">
+                <img class="jarallax-img" src="images/kaelaKid.jpg" alt="" width="400">
+            </div>
+
+            <p>"Let me just go to Basho and get two custom rolls each with only cucumber and avacado..." -Kaela</p>
+        </div>
+    </div>
+    <div class="demo-gap-half">
+        <div class="demo-gap-1">
+            <div class="jarallax" data-speed="0.2">
+                <img class="jarallax-img" src="images/kaelaSyd.jpg" alt="">
+            </div>
+        </div>
+        <div class="demo-gap-2" data-speed="0">
+            <div class="jarallax">
+                <img class="jarallax-img" src="images/kaelaSyd1.jpg" alt="">
+            </div>
+            <div class="jarallax" data-speed="1.4">
+                <img class="jarallax-img" src="images/kaelaSyd2.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="demo-content demo-gap">
+        <div class="container">
+            <div class="jarallax-keep-img demo-float-left" data-speed="0.5">
+                <img class="jarallax-img" src="images/sydGreat.jpg" alt=""  width="300">
+            </div>
+            <h1>Sydney Deng</h1>
+            <p>That's not a person, that's a city in Australia</p>
+             <p>"*thumbs up* *awkward smile*" -Sydney</p>
+            <div class="jarallax-keep-img demo-float-right" data-speed="0.8">
+                <img class="jarallax-img" src="images/sydHeadshot.jpg" alt="" width="500">
+            </div>
+        </div>
+    </div>
+    <div class="jarallax" data-speed="0" data-video-src="mp4:video/marjTroll.mp4">
+        <img class="jarallax-img" src="video/marjTroll.mp4" alt="">
+    </div>
+    <div class="demo-content demo-gap">
+        <div class="container">
+            <div class="jarallax-keep-img demo-float-left" data-speed="0.5">
+                <img class="jarallax-img" src="images/marDog.jpg" alt=""  width="300">
+            </div>
+            <h1>Marjorie Talavera</h1>
+            <p>I can't believe it's not butterrrrrrr</p>
+             <p>"*puckers lips* *sassy*" -Marjorie</p>
+            <div class="jarallax-keep-img demo-float-right" data-speed="0.8">
+                <img class="jarallax-img" src="images/marProf.jpg" alt="" width="200">
+            </div>
+        </div>
+    </div>
+    <div class="jarallax" data-speed="0" data-video-src="mp4:video/marLegend.mp4">
+        <img class="jarallax-img" src="video/marLegend.mp4" alt="">
+    </div>
+    <div class="demo-content demo-gap">
+        <div class="container">
+            <div class="jarallax-keep-img demo-float-left" data-speed="0.5">
+                <img class="jarallax-img" src="images/julPear.png" alt=""  width="300">
+            </div>
+            <h1>Julia Oliveri-Orioles</h1>
+            <p>CGS student council</p>
+             <p>"Please learn a lot more about me than necessary during hot seat at retreat" -Julia</p>
+            <div class="jarallax-keep-img demo-float-right" data-speed="0.8">
+                <img class="jarallax-img" src="images/julHs.jpg" alt="" width="400">
+            </div>
+        </div>
+    </div>
+    <div class="jarallax">
+        <img class="jarallax-img" src="images/jul.jpg" alt="">
+    </div>
+    <div class="jarallax">
+        <img class="jarallax-img" src="images/camSmolder.jpg" alt="">
+    </div>
+    <div class="demo-content demo-gap">
+        <div class="container">
+            <div class="jarallax-keep-img demo-float-left" data-speed="0.5">
+                <img class="jarallax-img" src="images/camYoung.jpg" alt=""  width="500">
+            </div>
+            <h1>Cameron Chan</h1>
+            <p>wholesome heckboi</p>
+             <p>"*smacks hands together* YoOooO ChiLl cHiLL" -Cameron</p>
+            <div class="jarallax-keep-img demo-float-right" data-speed="0.8">
+                <img class="jarallax-img" src="images/camMiddle.jpg" alt="" width="200">
+            </div>
+        </div>
+    </div>
+    <div class="jarallax" data-speed="0" data-video-src="mp4:video/piggyback.mp4">
+        <img class="jarallax-img" src="video/piggyback.mp4" alt="">
+    </div>
+    <div class="jarallax">
+        <img class="jarallax-img" src="images/mirCam.jpg" alt="">
+    </div>
+    <div class="demo-content demo-gap">
+        <div class="container">
+            <div class="jarallax-keep-img demo-float-left" data-speed="0.5">
+                <img class="jarallax-img" src="images/mirGlasses.jpg" alt=""  width="300">
+            </div>
+            <h1>Miranda Xie</h1>
+            <p>We get it you do yoga</p>
+             <p>"It really be like that" -Miranda</p>
+            <div class="jarallax-keep-img demo-float-right" data-speed="0.8">
+                <img class="jarallax-img" src="images/mirandaLight.jpg" alt="" width="300">
+            </div>
+        </div>
+    </div>
+    <div class="jarallax" data-speed="0" data-video-src="mp4:video/mirCarrieVid.mp4">
+        <img class="jarallax-img" src="video/mirCarrieVid.mp4" alt="">
+    </div>
+    <div class="jarallax">
+        <img class="jarallax-img" src="images/joKaela.jpg" alt="">
+    </div>
+    <div class="demo-content demo-gap">
+        <div class="container">
+            <div class="jarallax-keep-img demo-float-left" data-speed="0.5">
+                <img class="jarallax-img" src="images/phil.jpg" alt=""  width="300">
+            </div>
+            <h1>Joseph Lai</h1>
+            <p>Loves the Kappa Class!</p>
+             <p>"lol" -Joseph</p>
+            <div class="jarallax-keep-img demo-float-right" data-speed="0.8">
+                <img class="jarallax-img" src="images/josephUggles.jpg" alt="" width="400">
+            </div>
+        </div>
+    </div>
+<!-- 
+
+    <div class="demo-gap">
+        <h2>Different parallax speed</h2>
+    </div>
+    <div class="jarallax" data-speed="0.2">
+        <img class="jarallax-img" src="images/image3.jpg" alt="">
+    </div>
+    <div class="jarallax" data-speed="-0.2">
+        <img class="jarallax-img" src="images/image5.jpg" alt="">
+    </div>
+    <div class="jarallax" data-speed="1.4">
+        <img class="jarallax-img" src="images/image4.jpg" alt="">
+    </div>
+     <div class="demo-gap">
+        <div class="container">
+            <p>Smooth parallax scrolling effect for background images using <strong>CSS transforms</strong> with graceful degradation for old browsers. Parallax plugin with <strong>NO dependencies</strong>. jQuery supported. <strong>Youtube</strong> and <strong>Vimeo</strong> parallax supported.</p>
+            <p>Plugin for <strong>WordPress</strong> - <a href="https://wordpress.org/plugins/advanced-backgrounds/" target="_blank">https://wordpress.org/plugins/advanced-backgrounds/</a></p>
+            <br>
+            <a class="github-button" href="https://github.com/nk-o/jarallax" data-size="large" data-icon="octicon-star" data-count-href="/nk-o/jarallax/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star nk-o/jarallax on GitHub">Star</a>
+            <a class="github-button" href="https://github.com/nk-o/jarallax/archive/master.zip" data-size="large" aria-label="Download nk-o/jarallax on GitHub">Download</a>
+        </div>
+    </div>
+    <div class="demo-gap">
+        <h2>Parallax &lt;img> tag and
+            <span data-jarallax-element="-140">E</span><span data-jarallax-element="-60">l</span><span data-jarallax-element="80">e</span><span data-jarallax-element="-100">m</span><span data-jarallax-element="-50">e</span><span data-jarallax-element="80">n</span><span data-jarallax-element="150">t</span><span data-jarallax-element="-120">s</span></h2>
+
+    </div>
+     -->
+
+    <!--<div class="demo-gap">-->
+        <!--<h2>Scale and Opacity</h2>-->
+    <!--</div>-->
+    <!--<div class="jarallax" data-speed="0.2" data-type="scale-opacity" style="background-image: url(images/image3.jpg);"></div>-->
+    <!--<div class="jarallax" data-type="scroll-opacity" style="background-image: url(images/image4.jpg);"></div>-->
+    <!--<div class="jarallax" data-type="opacity" style="background-image: url(images/image5.jpg);"></div>-->
+    <!--<div class="jarallax" data-speed="-0.2" data-type="scale" style="background-image: url(images/image6.jpg);"></div>-->
+<!-- 
+    <div class="demo-gap">
+        <h2>Youtube Vimeo and &lt;video> parallax</h2>
+    </div>
+    <div class="jarallax" data-video-src="https://youtu.be/mru3Q5m4lkY"></div>
+
+    <div class="jarallax" data-speed="1.2" data-video-src="https://vimeo.com/235212527"></div>
+    <div class="demo-gap">
+        <h2>Parallax for small blocks</h2>
+    </div>
+    <div class="demo-gap-half">
+        <div class="demo-gap-1">
+            <div class="jarallax" data-speed="0.2">
+                <img class="jarallax-img" src="images/image6.jpg" alt="">
+            </div>
+        </div>
+        <div class="demo-gap-2" data-speed="0">
+            <div class="jarallax">
+                <img class="jarallax-img" src="images/image2.jpg" alt="">
+            </div>
+            <div class="jarallax" data-speed="1.4">
+                <img class="jarallax-img" src="images/image3.jpg" alt="">
+            </div>
+        </div>
+    </div>
+ -->
+    <div class="demo-gap">
+        <p>
+           Jarallax &copy; 2018 nK
+        </p>
+        <small>
+            All images taken from <a href="https://unsplash.com/">https://unsplash.com/</a>
+        </small>
+    </div>
+
+    <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+    <script type="text/javascript">
+        // object-fit polyfill run
+        objectFitImages();
+
+        /* init Jarallax */
+        jarallax(document.querySelectorAll('.jarallax'));
+
+        jarallax(document.querySelectorAll('.jarallax-keep-img'), {
+            keepImg: true,
+        });
+
+        /* init Flickity Carousel + Jarallax inside it */
+        // new Flickity( '.demo-carousel', {
+        //     initialIndex: 1,
+        //     autoPlay: 3000,
+        //     pauseAutoPlayOnHover: false,
+        //     pageDots: false,
+        //     prevNextButtons: false,
+        //     wrapAround: true
+        // });
+        // jarallax(document.querySelectorAll('.demo-carousel .jarallax'), {
+        //     elementInViewport: document.querySelectorAll('.demo-carousel')
+        // });
+
+        /* init Jarallax with jQuery */
+        // $('.jarallax').jarallax({
+        //     speed: 0.5,
+        //     imgWidth: 1366,
+        //     imgHeight: 768
+        // });
+    </script>
+</body>
+</html>
